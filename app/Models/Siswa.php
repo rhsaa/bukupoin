@@ -17,6 +17,6 @@ class Siswa extends Model
         'jurusan',
         'kelas',
         'hp',
-        'status'
+        'status',
     ];
 }
