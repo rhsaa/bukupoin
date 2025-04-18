@@ -16,7 +16,7 @@
 
     <br>
     <label>Email Address</label><br>
-    <input type="email" id="email" name="email" value="{{ old('name') }}"><br>
+    <input type="email" id="email" name="email" value="{{ old('email') }}"><br>
 
     @if ($errors->has('email'))
     <span class="text-danger">{{ $errors->first('email') }}</span>
